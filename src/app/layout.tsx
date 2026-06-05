@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   title: "Operation Workflow | Systems & Lead Conversion for Contractors",
   description: "Automated lead conversion systems built for residential contractors. Stop letting high-value inbound calls and web leads slip through the cracks.",
   icons: {
-    icon: "/owf-logo.png",
-    apple: "/owf-logo.png",
+    icon: "/logo.svg",
+    apple: "/logo.svg",
   },
 };
 
@@ -40,10 +40,10 @@ function Header() {
       <div className="max-w-[1100px] mx-auto px-5 py-6 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2.5 no-underline">
           <Image
-            src="/owf-logo.png"
+            src="/owf.png"
             alt="Operation Workflow"
-            width={38}
-            height={38}
+            width={52}
+            height={52}
             className="rounded-lg"
             priority
           />
@@ -78,7 +78,7 @@ function Footer() {
       <div className="max-w-[1100px] mx-auto px-5 py-14 text-center">
         <div className="flex flex-col items-center mb-8">
           <Image
-            src="/owf-logo.png"
+            src="/logo.svg"
             alt="Operation Workflow"
             width={48}
             height={48}
