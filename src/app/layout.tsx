@@ -52,7 +52,7 @@ function Header() {
               OPERATION <span className="text-[#2563eb]">WORKFLOW</span>
             </div>
             <div className="text-[10px] text-[#475569] tracking-wide mt-0.5">
-              1451358 B.C. LTD. DBA Operation Workflow
+              1451358 B.C. Ltd. DBA Operation Workflow
             </div>
           </div>
         </Link>
@@ -88,7 +88,7 @@ function Footer() {
             OPERATION <span className="text-[#2563eb]">WORKFLOW</span>
           </div>
           <div className="text-sm text-gray-400 mt-2">
-            1451358 B.C. LTD. DBA Operation Workflow
+            1451358 B.C. Ltd. DBA Operation Workflow
           </div>
         </div>
 
@@ -110,7 +110,7 @@ function Footer() {
         </p>
 
         <p className="text-xs text-gray-500 mt-4">
-          © 2026 1451358 B.C. LTD. All rights reserved.
+          Operation Workflow is owned and operated by 1451358 B.C. Ltd. © 2026 All Rights Reserved.
         </p>
       </div>
     </footer>

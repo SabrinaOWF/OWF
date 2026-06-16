@@ -26,7 +26,7 @@ export default function OptinPage() {
       <div className="mt-16 bg-[#f8fafc] border border-[#e2e8f0] rounded-xl p-8 grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="flex flex-col gap-1">
           <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Legal Name</span>
-          <span className="text-sm text-[#475569]">1451358 B.C. LTD.</span>
+          <span className="text-sm text-[#475569]">1451358 B.C. Ltd.</span>
         </div>
         <div className="flex flex-col gap-1">
           <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Operating As</span>

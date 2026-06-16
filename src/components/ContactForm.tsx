@@ -135,7 +135,7 @@ export default function ContactForm() {
           onChange={handleChange}
         />
         <label htmlFor="consentTransactional">
-          I consent to receive non-marketing text messages from 1451358 B.C. LTD. about appointment confirmations, service updates, and setup logistics. Message frequency may vary, message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.
+          I consent to receive non-marketing text messages from 1451358 B.C. Ltd. about appointment confirmations, service updates, and setup logistics. Message frequency may vary, message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.
         </label>
       </div>
 
@@ -149,14 +149,14 @@ export default function ContactForm() {
           onChange={handleChange}
         />
         <label htmlFor="consentMarketing">
-          I consent to receive marketing text messages, about special offers, discounts, and service updates, from 1451358 B.C. LTD. at the phone number provided. Message frequency may vary. Message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.
+          I consent to receive marketing text messages, about special offers, discounts, and service updates, from 1451358 B.C. Ltd. at the phone number provided. Message frequency may vary. Message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.
         </label>
       </div>
 
       <div className="form-footer">
-        By submitting, you agree to our{" "}
-        <a href="/terms">Terms and Conditions</a>{" "}and{" "}
-        <a href="/privacy-policy">Privacy Policy</a>.
+        By providing your phone number, you agree to receive text messages from Operation Workflow. Message and data rates may apply. Message frequency varies. You can opt-out at any time by replying STOP. View our{" "}
+        <a href="/privacy-policy">Privacy Policy</a>{" "}and{" "}
+        <a href="/terms">Terms of Service</a>{" "}below.
       </div>
 
       <button

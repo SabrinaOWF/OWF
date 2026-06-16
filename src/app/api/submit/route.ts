@@ -9,9 +9,10 @@ export async function POST(req: Request) {
     // Form submission proceeds regardless of consent selections.
 
     const token = process.env.GHL_PRIVATE_TOKEN
-    if (!token) {
+    const locationId = process.env.GHL_LOCATION_ID
+    if (!token || !locationId) {
       return NextResponse.json(
-        { error: 'Server configuration error: GHL_PRIVATE_TOKEN not set' },
+        { error: 'Server configuration error: GHL_PRIVATE_TOKEN or GHL_LOCATION_ID not set' },
         { status: 500 }
       )
     }
@@ -31,6 +32,7 @@ export async function POST(req: Request) {
         phone,
         companyName: company,
         website,
+        locationId,
         tags: ['Landing Page Lead'],
         source: 'Website Opt-in Form',
       })

@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Privacy Policy - Operation Workflow",
-  description: "Privacy Policy for Operation Workflow (1451358 B.C. LTD.). Data collection, SMS messaging, opt-out instructions, and security practices.",
+  description: "Privacy Policy for Operation Workflow (1451358 B.C. Ltd.). Data collection, SMS messaging, opt-out instructions, and security practices.",
 };
 
 export default function PrivacyPage() {
@@ -13,11 +13,11 @@ export default function PrivacyPage() {
       </div>
 
       <Section label="Business Information">
-        <h2>About 1451358 B.C. LTD.</h2>
+        <h2>About 1451358 B.C. Ltd.</h2>
         <div className="bg-[#f8fafc] border border-[#e2e8f0] rounded-xl p-7 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="flex flex-col gap-1">
             <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Legal Name</span>
-            <span className="text-sm text-[#475569]">1451358 B.C. LTD.</span>
+            <span className="text-sm text-[#475569]">1451358 B.C. Ltd.</span>
           </div>
           <div className="flex flex-col gap-1">
             <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Operating As</span>
@@ -52,9 +52,9 @@ export default function PrivacyPage() {
       <Section label="SMS Messaging">
         <h2>Text Message Communications</h2>
         <HighlightBox>
-          No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. Information sharing to subcontractors in support services, such as customer service, is permitted. All other use case categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
+          No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
         </HighlightBox>
-        <p>Users opt in to receive SMS messages from 1451358 B.C. LTD. by visiting operationworkflow.com and manually checking one or both of two distinct, non-pre-selected checkboxes on our contact/booking form - one for transactional messages (appointment confirmations and service responses) and one for marketing messages. Message frequency averages 3 to 5 messages per month. You may opt out at any time by replying STOP.</p>
+        <p>Users opt in to receive SMS messages from 1451358 B.C. Ltd. by visiting operationworkflow.com and manually checking one or both of two distinct, non-pre-selected checkboxes on our contact/booking form - one for transactional messages (appointment confirmations and service responses) and one for marketing messages. Message frequency averages 3 to 5 messages per month. You may opt out at any time by replying STOP.</p>
         <p>Message frequency varies. Message and data rates may apply. By opting into our SMS services, you represent that you are at least 18 years of age.</p>
       </Section>
 
@@ -87,7 +87,7 @@ export default function PrivacyPage() {
         <h2>Questions About This Policy</h2>
         <p>If you have any questions please contact us at sabrina@operationworkflow.com or by mail at 33791 Apps Court, Mission, BC, V2V6Z8, Canada.</p>
         <div className="mt-6">
-          <p><strong>1451358 B.C. LTD.</strong><br />
+          <p><strong>1451358 B.C. Ltd.</strong><br />
           33791 Apps Court, Mission, BC, V2V6Z8, Canada<br />
           +1 604-418-4798<br />
           sabrina@operationworkflow.com</p>

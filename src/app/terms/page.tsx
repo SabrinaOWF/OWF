@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Terms and Conditions - Operation Workflow",
-  description: "Terms and Conditions for Operation Workflow (1451358 B.C. LTD.). SMS program terms, opt-out instructions, and legal disclosures.",
+  description: "Terms and Conditions for Operation Workflow (1451358 B.C. Ltd.). SMS program terms, opt-out instructions, and legal disclosures.",
 };
 
 export default function TermsPage() {
@@ -12,14 +12,19 @@ export default function TermsPage() {
         <p className="mt-4 text-[#475569]">Last Updated: May 2026</p>
       </div>
 
+      <Section label="SMS TERMS &amp; CONDITIONS">
+        <h2>SMS Terms &amp; Conditions</h2>
+        <p>1. Program Description: Operation Workflow uses text messaging to interact with businesses regarding operational assessments. 2. Opt-Out: You can cancel the SMS service at any time by texting <strong>STOP</strong>. 3. Help: Reply with <strong>HELP</strong> for assistance. 4. Rates: Message and data rates may apply. Message frequency varies.</p>
+      </Section>
+
       <Section label="Business Information">
-        <h2>1451358 B.C. LTD.</h2>
+        <h2>1451358 B.C. Ltd.</h2>
         <p>OWF - Operation Workflow<br />33791 Apps Court, Mission, BC, V2V6Z8, Canada<br />sabrina@operationworkflow.com · +1 604-418-4798</p>
       </Section>
 
       <Section label="SMS Program">
         <h2>Program Description</h2>
-        <p>By providing your phone number and checking the consent boxes on our form, you agree to receive text messages from 1451358 B.C. LTD. at the number provided. Our messaging program includes service updates, appointment confirmations, and marketing promotions where you have provided secondary consent. This program is designed to ensure optimal customer support and to respond to service-related inquiries. Consent is not a condition of any purchase.</p>
+        <p>By providing your phone number and checking the consent boxes on our form, you agree to receive text messages from 1451358 B.C. Ltd. at the number provided. Our messaging program includes service updates, appointment confirmations, and marketing promotions where you have provided secondary consent. This program is designed to ensure optimal customer support and to respond to service-related inquiries. Consent is not a condition of any purchase.</p>
       </Section>
 
       <Section label="Opt-Out">
@@ -58,7 +63,7 @@ export default function TermsPage() {
 
       <Section label="Contact" last>
         <h2>Reach Us</h2>
-        <p><strong>1451358 B.C. LTD.</strong><br />
+        <p><strong>1451358 B.C. Ltd.</strong><br />
         33791 Apps Court, Mission, BC, V2V6Z8, Canada<br />
         +1 604-418-4798<br />
         sabrina@operationworkflow.com</p>
