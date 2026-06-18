@@ -135,7 +135,7 @@ export default function ContactForm() {
           onChange={handleChange}
         />
         <label htmlFor="consentTransactional">
-          I consent to receive non-marketing text messages from 1451358 B.C. Ltd. about appointment confirmations, service updates, and setup logistics. Message frequency may vary, message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.
+          I consent to receive transactional (non-marketing) text messages from 1451358 B.C. Ltd. about appointment confirmations, service updates, and setup logistics. Message frequency may vary, message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.
         </label>
       </div>
 
@@ -149,7 +149,7 @@ export default function ContactForm() {
           onChange={handleChange}
         />
         <label htmlFor="consentMarketing">
-          I consent to receive marketing text messages, about special offers, discounts, and service updates, from 1451358 B.C. Ltd. at the phone number provided. Message frequency may vary. Message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.
+          I consent to receive marketing and promotional text messages from 1451358 B.C. Ltd. about special offers, discounts, and service updates at the phone number provided. Message frequency may vary. Message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.
         </label>
       </div>
 

@@ -24,7 +24,7 @@ export default function TermsPage() {
 
       <Section label="SMS Program">
         <h2>Program Description</h2>
-        <p>By providing your phone number and checking the consent boxes on our form, you agree to receive text messages from 1451358 B.C. Ltd. at the number provided. Our messaging program includes service updates, appointment confirmations, and marketing promotions where you have provided secondary consent. This program is designed to ensure optimal customer support and to respond to service-related inquiries. Consent is not a condition of any purchase.</p>
+        <p>By providing your phone number and checking the consent boxes on our form, you agree to receive text messages from 1451358 B.C. Ltd. at the number provided. Our messaging program includes transactional messages (appointment confirmations, service updates, setup logistics) and promotional/marketing messages (special offers, discounts, service updates) where you have provided secondary consent. This program is designed to ensure optimal customer support and to respond to service-related inquiries. Consent is not a condition of any purchase.</p>
       </Section>
 
       <Section label="Opt-Out">
