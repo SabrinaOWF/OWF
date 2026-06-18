@@ -82,10 +82,10 @@ export default function HomePage() {
       </section>
 
       {/* Booking Section */}
-      <section className="text-center py-20 pb-10" id="setup">
+      <section className="text-center py-20 pb-6" id="setup">
         <h2 className="text-[2.2rem] font-extrabold">Claim Your Demonstration Slot</h2>
         <p className="text-[#475569] mt-4 mb-10">See our custom trade workflows live in action and claim your setup slot.</p>
-        <div className="bg-[#f8fafc] border-2 border-dashed border-[#cbd5e1] rounded-xl max-w-[600px] mx-auto p-10 mb-10">
+        <div className="bg-[#f8fafc] border-2 border-dashed border-[#cbd5e1] rounded-xl max-w-[600px] mx-auto p-10 mb-8">
           <p className="text-[#475569] font-semibold mb-6">Ready to see it in action?</p>
           <Link
             href="/optin"
@@ -94,6 +94,11 @@ export default function HomePage() {
             Schedule a 15-Minute System Demo
           </Link>
         </div>
+        <p className="text-xs text-[#94a3b8] max-w-[600px] mx-auto leading-relaxed px-4">
+          By scheduling a demo, you consent to receive transactional and promotional text messages from 1451358 B.C. Ltd. at the phone number provided. Message &amp; data rates may apply. Message frequency varies. Reply STOP to opt out. View our{" "}
+          <Link href="/privacy-policy" className="text-[#2563eb] hover:underline">Privacy Policy</Link>{" "}and{" "}
+          <Link href="/terms" className="text-[#2563eb] hover:underline">Terms and Conditions</Link>.
+        </p>
       </section>
     </div>
   );

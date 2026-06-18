@@ -14,7 +14,7 @@ export default function TermsPage() {
 
       <Section label="SMS TERMS &amp; CONDITIONS">
         <h2>SMS Terms &amp; Conditions</h2>
-        <p>1. Program Description: Operation Workflow uses text messaging to interact with businesses regarding operational assessments. 2. Opt-Out: You can cancel the SMS service at any time by texting <strong>STOP</strong>. 3. Help: Reply with <strong>HELP</strong> for assistance. 4. Rates: Message and data rates may apply. Message frequency varies.</p>
+        <p>1. Program Description: 1451358 B.C. Ltd. (DBA Operation Workflow) uses text messaging to send transactional and promotional messages to businesses regarding operational assessments. 2. Opt-Out: You can cancel the SMS service at any time by texting <strong>STOP</strong>. 3. Help: Reply with <strong>HELP</strong> for assistance. 4. Rates: Message and data rates may apply. Message frequency varies.</p>
       </Section>
 
       <Section label="Business Information">

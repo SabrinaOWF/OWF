@@ -154,9 +154,9 @@ export default function ContactForm() {
       </div>
 
       <div className="form-footer">
-        By providing your phone number, you agree to receive text messages from Operation Workflow. Message and data rates may apply. Message frequency varies. You can opt-out at any time by replying STOP. View our{" "}
+        By providing your phone number, you agree to receive transactional and promotional text messages from 1451358 B.C. Ltd. (DBA Operation Workflow) at the number provided. Message and data rates may apply. Message frequency varies. You can opt-out at any time by replying STOP. View our{" "}
         <a href="/privacy-policy">Privacy Policy</a>{" "}and{" "}
-        <a href="/terms">Terms of Service</a>{" "}below.
+        <a href="/terms">Terms and Conditions</a>.
       </div>
 
       <button
