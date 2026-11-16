@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Operation Workflow | Systems & Lead Conversion for Contractors",
-  description: "Automated lead conversion systems built for residential contractors. Stop letting high-value inbound calls and web leads slip through the cracks.",
+  title: "Operation Workflow | Managed Follow-Up & Revenue Recovery",
+description: "Operation Workflow helps service businesses recover missed opportunities through fully managed lead follow-up, missed-call text-back, estimate follow-ups, and customer reactivation. We handle setup, monitoring, and maintenance so you can focus on running your business.",  
   icons: {
     icon: "/logo.svg",
     apple: "/logo.svg",
