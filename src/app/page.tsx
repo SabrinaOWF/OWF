@@ -32,7 +32,7 @@ export default function HomePage() {
           <div className="mt-12 grid gap-6 md:grid-cols-2">
             <article className="rounded-[28px] bg-[#FFFCF7] p-8 shadow-sm md:p-11">
               <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#9B704E]">01 / Fully managed program</p>
-              <h3 className="mt-5 text-3xl font-semibold tracking-tight md:text-4xl">Good opportunities shouldn't disappear.</h3>
+              <h3 className="mt-5 text-3xl font-semibold tracking-tight md:text-4xl">Stop Losing Leads. Start Recovering Revenue.</h3>
               <p className="mt-6 leading-relaxed text-[#5D695F]">A missed call during a busy day. A promising inquiry that never gets a reply. An estimate that goes quiet. These everyday gaps can add up to lost business.</p>
               <div className="my-7 h-px bg-[#E5DDD1]" />
               <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#9B704E]">The solution</p>
