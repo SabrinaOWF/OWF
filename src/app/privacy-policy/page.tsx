@@ -25,7 +25,7 @@ export default function PrivacyPage() {
           </div>
           <div className="flex flex-col gap-1">
             <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Address</span>
-            <span className="text-sm text-[#475569]">33791 Apps Court, Mission, BC, V2V6Z8, Canada</span>
+            <span className="text-sm text-[#475569]">Mission, British Columbia, Canada</span>
           </div>
           <div className="flex flex-col gap-1">
             <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Contact</span>
