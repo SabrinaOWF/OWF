@@ -13,7 +13,7 @@ export default function PrivacyPage() {
       </div>
 
       <Section label="Business Information">
-        <h2>About 1451358 B.C. Ltd.</h2>
+        <h2>About Operation Workflow</h2>
         <div className="bg-[#f8fafc] border border-[#e2e8f0] rounded-xl p-7 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="flex flex-col gap-1">
             <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Legal Name</span>
