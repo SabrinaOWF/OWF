@@ -88,12 +88,12 @@ function Footer() {
             OPERATION <span className="text-[#2563eb]">WORKFLOW</span>
           </div>
           <div className="text-sm text-gray-400 mt-2">
-            1451358 B.C. Ltd. DBA Operation Workflow
+           Managed Follow-Up | Revenue Recovery | Operational Support
           </div>
         </div>
 
         <div className="mb-8 text-sm text-gray-400 space-y-1">
-          <div>33791 Apps Court, Mission, BC, V2V6Z8, Canada</div>
+          
           <div>sabrina@operationworkflow.com</div>
         </div>
 
