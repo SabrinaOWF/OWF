@@ -39,14 +39,7 @@ function Header() {
     <header className="border-b-2 border-[#e2e8f0]">
       <div className="max-w-[1100px] mx-auto px-5 py-6 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2.5 no-underline">
-          <Image
-            src="/owf.png"
-            alt="Operation Workflow"
-            width={52}
-            height={52}
-            className="rounded-lg"
-            priority
-          />
+         
           <div>
             <div className="text-[1.3rem] font-black tracking-[-0.04em] text-[#0f172a] leading-none">
               OPERATION <span className="text-[#2563eb]">WORKFLOW</span>
