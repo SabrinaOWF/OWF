@@ -2,7 +2,7 @@ import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
   title: "Contact - Operation Workflow",
-  description: "Schedule your 15-minute system demo with Operation Workflow. Get in touch with our team.",
+  description: "Contact Operation Workflow to learn about our managed follow-up services and business advisory. Book a free 10-minute conversation.",
 };
 
 export default function OptinPage() {
