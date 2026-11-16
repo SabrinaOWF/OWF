@@ -110,7 +110,7 @@ function Footer() {
         </p>
 
         <p className="text-xs text-gray-500 mt-4">
-          Operation Workflow is owned and operated by 1451358 B.C. Ltd. © 2026 All Rights Reserved.
+          © 2026 Operation Workflow. All Rights Reserved.
         </p>
       </div>
     </footer>
