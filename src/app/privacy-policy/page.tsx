@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Privacy Policy - Operation Workflow",
-  description: "Privacy Policy for Operation Workflow (1451358 B.C. Ltd.). Data collection, SMS messaging, opt-out instructions, and security practices.",
+  description: "Privacy Policy for Operation Workflow. Data collection, SMS messaging, opt-out instructions, and security practices.",
 };
 
 export default function PrivacyPage() {
