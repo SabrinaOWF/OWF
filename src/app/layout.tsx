@@ -52,7 +52,7 @@ function Header() {
               OPERATION <span className="text-[#2563eb]">WORKFLOW</span>
             </div>
             <div className="text-[10px] text-[#475569] tracking-wide mt-0.5">
-              1451358 B.C. Ltd. DBA Operation Workflow
+              Managed Follow-Up & Revenue Recovery
             </div>
           </div>
         </Link>
