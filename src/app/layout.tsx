@@ -94,7 +94,7 @@ function Footer() {
 
         <div className="mb-8 text-sm text-gray-400 space-y-1">
           <div>33791 Apps Court, Mission, BC, V2V6Z8, Canada</div>
-          <div>sabrina@operationworkflow.com · +1 604-418-4798</div>
+          <div>sabrina@operationworkflow.com</div>
         </div>
 
         <p className="text-sm text-gray-400 mb-2">
