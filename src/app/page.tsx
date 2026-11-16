@@ -18,10 +18,10 @@ export default function HomePage() {
           Stop letting high-value inbound calls and web leads slip through the cracks. We deploy custom communication workflows that instantly text back missed calls, unify your messaging, and secure your estimates.
         </p>
         <Link
-          href="/optin"
+          href="https://calendar.app.google/gcW88adJ1NekJZFHA"
           className="inline-block bg-[#f97316] text-white px-10 py-4 text-[1.15rem] font-bold rounded-lg shadow-[0_4px_14px_rgba(249,115,22,0.3)] transition-all duration-200 hover:bg-[#ea580c] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(249,115,22,0.4)]"
         >
-          Schedule a 15-Minute System Demo
+          Book Your Free 10-Minute Discovery Call
         </Link>
       </section>
 
