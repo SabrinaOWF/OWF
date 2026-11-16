@@ -36,8 +36,7 @@ export default function HomePage() {
               <p className="mt-6 leading-relaxed text-[#5D695F]">A missed call during a busy day. A promising inquiry that never gets a reply. An estimate that goes quiet. These everyday gaps can add up to lost business.</p>
               <div className="my-7 h-px bg-[#E5DDD1]" />
               <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#9B704E]">The solution</p>
-              <p className="mt-3 leading-relaxed text-[#5D695F]">We build and manage a reliable follow-up system that helps keep your business in touch with potential and past customers. Setup, monitoring, and ongoing maintenance are handled for you—not added to your to-do list.</p>
-              <div className="mt-8"><BookingButton label="Explore the Managed Program" /></div>
+<p className="mt-3 leading-relaxed text-[#5D695F]">We set up and manage your follow-up system so opportunities don't slip through the cracks. From missed-call text-back and immediate lead responses to estimate follow-ups, old lead reactivation, and past-customer reactivation, we help you stay connected with potential customers. Setup, monitoring, maintenance, and monthly reporting are all handled for you.</p>              <div className="mt-8"><BookingButton label="Explore the Managed Program" /></div>
             </article>
             <article className="rounded-[28px] bg-[#DFE5D9] p-8 md:p-11">
               <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#8E664B]">02 / Coaching & operational advisory</p>
