@@ -16,10 +16,10 @@ export default function HomePage() {
     <main className="bg-[#F8F3EB] text-[#293D32]">
       <section className="mx-auto max-w-6xl px-6 pb-20 pt-20 md:pb-28 md:pt-28">
         <div className="max-w-4xl">
-          <p className="mb-6 text-xs font-semibold uppercase tracking-[0.22em] text-[#9B704E]">Practical solutions. Real business progress.</p>
-          <h1 className="max-w-4xl text-5xl font-semibold leading-[1.1] tracking-[-0.045em] md:text-7xl">Less chasing. Less chaos. <span className="text-[#9B704E]">More room to grow.</span></h1>
-          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-[#59675C] md:text-xl">You worked hard to build your business. You shouldn't have to chase every opportunity or solve every challenge alone.</p>
-          <p className="mb-9 mt-4 max-w-2xl text-base leading-relaxed text-[#59675C]">Operation Workflow brings together fully managed follow-up systems and practical, hands-on business guidance—so you can focus on what matters most.</p>
+          <p className="mb-6 text-xs font-semibold uppercase tracking-[0.22em] text-[#9B704E]">Stop Losing Leads. Start Recovering Revenue.</p>
+          <h1 className="max-w-4xl text-5xl font-semibold leading-[1.1] tracking-[-0.045em] md:text-7xl">Every Lead Deserves a Follow-Up.<span className="text-[#9B704E]">Every Opportunity Matters.</span></h1>
+          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-[#59675C] md:text-xl">You work hard to bring customers through the door. But missed calls, unanswered inquiries, and forgotten follow-ups can mean lost revenue. We help you recover those opportunities without adding more work to your day.</p>
+          <p className="mb-9 mt-4 max-w-2xl text-base leading-relaxed text-[#59675C]">Operation Workflow handles missed-call text-backs, immediate lead responses, estimate and consultation follow-ups, old lead reactivation, and past-customer reactivation. We set everything up, monitor the automations, maintain the system, and provide monthly reporting.</p>
           <BookingButton label="Let's Talk About Your Business" />
           <p className="mt-4 text-sm text-[#7B8177]">A free, no-pressure 10-minute conversation.</p>
         </div>
