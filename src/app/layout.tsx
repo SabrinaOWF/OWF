@@ -53,12 +53,7 @@ function Header() {
           <Link href="/optin" className="text-sm text-[#475569] hover:text-[#2563eb] transition-colors font-medium">
             Contact
           </Link>
-          <Link href="/privacy-policy" className="text-sm text-[#475569] hover:text-[#2563eb] transition-colors font-medium">
-            Privacy Policy
-          </Link>
-          <Link href="/terms" className="text-sm text-[#475569] hover:text-[#2563eb] transition-colors font-medium">
-            Terms and Conditions
-          </Link>
+          
         </nav>
       </div>
     </header>
@@ -84,13 +79,7 @@ function Footer() {
           <div>sabrina@operationworkflow.com</div>
         </div>
 
-        <p className="text-sm text-gray-400 mb-2">
-          <Link href="/privacy-policy" className="underline hover:text-white mx-2">Privacy Policy</Link>
-          |
-          <Link href="/terms" className="underline hover:text-white mx-2">Terms and Conditions</Link>
-          |
-          <Link href="/optin" className="underline hover:text-white mx-2">Contact</Link>
-        </p>
+        
 
         <p className="text-xs text-gray-500 max-w-[800px] mx-auto mt-6 opacity-90 leading-relaxed">
           No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. Information sharing to subcontractors in support services, such as customer service, is permitted. All other use case categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
@@ -98,6 +87,13 @@ function Footer() {
 
         <p className="text-xs text-gray-500 mt-4">
           © 2026 Operation Workflow. All Rights Reserved.
+        </p>
+        <p className="text-xs text-gray-500 mb-2">
+          <Link href="/privacy-policy" className="underline hover:text-white mx-2">Privacy Policy</Link>
+          |
+          <Link href="/terms" className="underline hover:text-white mx-2">Terms and Conditions</Link>
+          |
+          <Link href="/optin" className="underline hover:text-white mx-2">Contact</Link>
         </p>
       </div>
     </footer>
