@@ -45,7 +45,7 @@ function Header() {
               OPERATION <span className="text-#9B704E">WORKFLOW</span>
             </div>
             <div className="text-[10px] text-[#475569] tracking-wide mt-0.5">
-              Managed Follow-Up & Revenue Recovery
+              Revenue Recovery & Managed Follow-Up
             </div>
           </div>
         </Link>
