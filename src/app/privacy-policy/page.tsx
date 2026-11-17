@@ -80,7 +80,7 @@ export default function PrivacyPage() {
 
       <Section label="Terms">
         <h2>Related Policies</h2>
-        <p>Your use of our services is also governed by our <a href="/terms" className="text-[#2563eb] hover:underline">Terms and Conditions</a>. Please review them carefully.</p>
+        <p>Your use of our services is also governed by our <a href="/terms" className="text-[#9B704E] hover:underline">Terms and Conditions</a>. Please review them carefully.</p>
       </Section>
 
       <Section label="Contact" last>
@@ -100,7 +100,7 @@ export default function PrivacyPage() {
 function Section({ label, children, last = false }: { label: string; children: React.ReactNode; last?: boolean }) {
   return (
     <div className={`mb-12 pb-12 ${!last ? 'border-b border-[#e2e8f0]' : ''}`}>
-      <span className="block text-[10px] font-semibold tracking-[2.5px] uppercase text-[#2563eb] mb-3">{label}</span>
+      <span className="block text-[10px] font-semibold tracking-[2.5px] uppercase text-[#9B704E] mb-3">{label}</span>
       {children}
     </div>
   );
@@ -108,7 +108,7 @@ function Section({ label, children, last = false }: { label: string; children: R
 
 function HighlightBox({ children }: { children: React.ReactNode }) {
   return (
-    <div className="bg-white border border-[#e2e8f0] border-l-[3px] border-l-[#2563eb] rounded-r-lg p-5 md:p-6 my-6 text-sm text-[#475569] leading-relaxed">
+    <div className="bg-white border border-[#e2e8f0] border-l-[3px] border-l-[#9B704E] rounded-r-lg p-5 md:p-6 my-6 text-sm text-[#475569] leading-relaxed">
       {children}
     </div>
   );
