@@ -42,7 +42,7 @@ function Header() {
          
           <div>
             <div className="text-[1.3rem] font-black tracking-[-0.04em] text-[#0f172a] leading-none">
-              OPERATION <span className="text-[#2563eb]">WORKFLOW</span>
+              OPERATION <span className="text-#9B704E">WORKFLOW</span>
             </div>
             <div className="text-[10px] text-[#475569] tracking-wide mt-0.5">
               Managed Follow-Up & Revenue Recovery
