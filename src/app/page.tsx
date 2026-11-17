@@ -3,8 +3,8 @@ import Link from "next/link";
 const bookingUrl = "https://calendar.app.google/gcW88adJ1NekJZFHA";
 
 export const metadata = {
-  title: "Operation Workflow | Practical Solutions for Growing Businesses",
-  description: "Managed follow-up and revenue recovery, plus practical business coaching and operational advisory. Less chasing. Less chaos. More room to grow.",
+  title: "Operation Workflow | Turn Missed Leads Into More Revenue",
+  description: "Operation Workflow helps service businesses recover missed opportunities with automated missed-call text-back, lead response, estimate follow-ups, and customer reactivation. Fully managed for you.",
 };
 
 function BookingButton({ label = "Book a Free 10-Minute Call", light = false }: { label?: string; light?: boolean }) {
