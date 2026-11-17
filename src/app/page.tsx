@@ -1,105 +1,65 @@
 import Link from "next/link";
 
+const bookingUrl = "https://calendar.app.google/gcW88adJ1NekJZFHA";
+
 export const metadata = {
-  title: "Operation Workflow | Systems & Lead Conversion for Contractors",
-  description: "Automated lead conversion systems built for residential contractors. Stop letting high-value inbound calls and web leads slip through the cracks.",
+  title: "Operation Workflow | Turn Missed Leads Into More Revenue",
+  description: "Operation Workflow helps service businesses recover missed opportunities with automated missed-call text-back, lead response, estimate follow-ups, and customer reactivation. Fully managed for you.",
 };
+
+function BookingButton({ label = "Book a Free 10-Minute Call", light = false }: { label?: string; light?: boolean }) {
+  return <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className={`inline-flex items-center justify-center rounded-full px-7 py-4 text-sm font-semibold transition hover:-translate-y-0.5 ${light ? "bg-[#F8F2E9] text-[#284537] hover:bg-white" : "bg-[#345945] text-white hover:bg-[#264333]"}`}>{label} <span aria-hidden="true" className="ml-3">↗</span></a>;
+}
 
 export default function HomePage() {
   return (
-    <div className="max-w-[1100px] mx-auto px-5">
-      {/* Hero Section */}
-      <section className="text-center py-24 md:py-28" style={{ background: "radial-gradient(circle at top, #eff6ff 0%, #ffffff 70%)" }}>
-        <h1 className="text-4xl md:text-[3.4rem] font-black tracking-[-0.03em] leading-tight mb-6">
-          Automated Lead Conversion Systems Built for{" "}
-          <span className="text-[#2563eb]">Residential Contractors.</span>
-        </h1>
-        <p className="text-lg md:text-[1.3rem] text-[#475569] max-w-[850px] mx-auto mb-10 font-normal">
-          Stop letting high-value inbound calls and web leads slip through the cracks. We deploy custom communication workflows that instantly text back missed calls, unify your messaging, and secure your estimates.
-        </p>
-        <Link
-          href="https://calendar.app.google/gcW88adJ1NekJZFHA"
-          className="inline-block bg-[#f97316] text-white px-10 py-4 text-[1.15rem] font-bold rounded-lg shadow-[0_4px_14px_rgba(249,115,22,0.3)] transition-all duration-200 hover:bg-[#ea580c] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(249,115,22,0.4)]"
-        >
-          Book Your Free 10-Minute Discovery Call
-        </Link>
-      </section>
-
-      {/* Features Section */}
-      <h2 className="text-center text-[2.2rem] font-extrabold mb-2">Built to Handle Your Customer Pipeline</h2>
-      <p className="text-center text-[#475569] mb-12 text-[1.1rem]">
-        A bulletproof operations layer deployed directly into your business.
-      </p>
-
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-8 my-10 mb-20">
-        <div className="bg-[#f8fafc] p-9 rounded-xl border border-[#e2e8f0] transition-transform duration-200 hover:-translate-y-1 hover:border-[#2563eb]">
-          <span className="text-3xl mb-4 block">⚡</span>
-          <h3 className="text-[1.35rem] text-[#0f172a] font-bold mt-0">Instant Missed-Call Text-Back</h3>
-          <p className="text-[#475569] mt-3">
-            When you&apos;re out on a job or driving between sites, you miss calls. Our system immediately text-backs those hot leads via SMS to lock in the quote request before they dial a competitor.
-          </p>
-        </div>
-
-        <div className="bg-[#f8fafc] p-9 rounded-xl border border-[#e2e8f0] transition-transform duration-200 hover:-translate-y-1 hover:border-[#2563eb]">
-          <span className="text-3xl mb-4 block">📥</span>
-          <h3 className="text-[1.35rem] text-[#0f172a] font-bold mt-0">The Unified Lead Inbox</h3>
-          <p className="text-[#475569] mt-3">
-            Consolidate your incoming texts, Google local leads, Facebook messages, and website quote requests into one single, lightning-fast mobile dashboard.
-          </p>
-        </div>
-
-        <div className="bg-[#f8fafc] p-9 rounded-xl border border-[#e2e8f0] transition-transform duration-200 hover:-translate-y-1 hover:border-[#2563eb]">
-          <span className="text-3xl mb-4 block">📋</span>
-          <h3 className="text-[1.35rem] text-[#0f172a] font-bold mt-0">Mobile Estimates & Fast-Track Billing</h3>
-          <p className="text-[#475569] mt-3">
-            Generate professional digital quotes and send secure text-to-pay links directly to your customer&apos;s smartphone right from the field.
-          </p>
+    <main className="bg-[#F8F3EB] text-[#293D32]">
+      <section className="mx-auto max-w-6xl px-6 pb-20 pt-20 md:pb-28 md:pt-28">
+        <div className="max-w-4xl">
+          <p className="mb-6 text-xs font-semibold uppercase tracking-[0.22em] text-[#9B704E]">Stop Losing Leads. Start Recovering Revenue.</p>
+          <h1 className="max-w-4xl text-5xl font-semibold leading-[1.1] tracking-[-0.045em] md:text-7xl">Every Lead Deserves a Follow-Up.<span className="text-[#9B704E]">Every Opportunity Matters.</span></h1>
+          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-[#59675C] md:text-xl">You work hard to bring customers through the door. But missed calls, unanswered inquiries, and forgotten follow-ups can mean lost revenue. We help you recover those opportunities without adding more work to your day.</p>
+          <p className="mb-9 mt-4 max-w-2xl text-base leading-relaxed text-[#59675C]">Operation Workflow handles missed-call text-backs, immediate lead responses, estimate and consultation follow-ups, old lead reactivation, and past-customer reactivation. We set everything up, monitor the automations, maintain the system, and provide monthly reporting.</p>
+          <BookingButton label="Let's Talk About Your Business" />
+          <p className="mt-4 text-sm text-[#7B8177]">A free, no-pressure 10-minute conversation.</p>
         </div>
       </section>
 
-      {/* Value Hook */}
-      <section className="bg-[#2563eb] text-white rounded-2xl py-16 px-10 my-20 text-center shadow-[0_10px_30px_rgba(37,99,235,0.2)]">
-        <h2 className="text-3xl md:text-[2.4rem] font-extrabold mt-0 mb-4">Custom Infrastructure. Zero Long-Term Contracts.</h2>
-        <p className="text-lg md:text-[1.2rem] max-w-[700px] mx-auto mb-8 opacity-90">
-          We build, host, and optimize your entire trade communication pipeline to match your exact dispatch flow. Cancel anytime with a simple 30-day notice.
-        </p>
-        <Link
-          href="/optin"
-          className="inline-block bg-white text-[#2563eb] px-9 py-4 text-[1.1rem] font-bold rounded-lg transition-colors duration-200 hover:bg-[#f1f5f9]"
-        >
-          Request a Custom System Quote
-        </Link>
-      </section>
-
-      {/* Niches */}
-      <section className="text-center py-16 bg-[#f8fafc] rounded-xl mb-16">
-        <h2 className="text-[2.2rem] font-extrabold">Serving the Residential Trades</h2>
-        <div className="flex justify-center gap-4 flex-wrap mt-8">
-          <span className="bg-white text-[#0f172a] px-8 py-3.5 rounded-full font-bold border border-[#e2e8f0] shadow-[0_2px_4px_rgba(0,0,0,0.02)]">Plumbing & HVAC</span>
-          <span className="bg-white text-[#0f172a] px-8 py-3.5 rounded-full font-bold border border-[#e2e8f0] shadow-[0_2px_4px_rgba(0,0,0,0.02)]">Roofing Companies</span>
-          <span className="bg-white text-[#0f172a] px-8 py-3.5 rounded-full font-bold border border-[#e2e8f0] shadow-[0_2px_4px_rgba(0,0,0,0.02)]">Asphalt & Sealcoating</span>
+      <section id="solutions" className="bg-[#EEE9DF] px-6 py-20 md:py-24">
+        <div className="mx-auto max-w-6xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#9B704E]">Two ways we can help</p>
+          <h2 className="mt-4 max-w-3xl text-3xl font-semibold tracking-tight md:text-5xl">Whatever is slowing you down, let's find a better way forward.</h2>
+          <div className="mt-12 grid gap-6 md:grid-cols-2">
+            <article className="rounded-[28px] bg-[#FFFCF7] p-8 shadow-sm md:p-11">
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#9B704E]">01 / Fully managed program</p>
+              <h3 className="mt-5 text-3xl font-semibold tracking-tight md:text-4xl">Stop Losing Leads. Start Recovering Revenue.</h3>
+              <p className="mt-6 leading-relaxed text-[#5D695F]">A missed call during a busy day. A promising inquiry that never gets a reply. An estimate that goes quiet. These everyday gaps can add up to lost business.</p>
+              <div className="my-7 h-px bg-[#E5DDD1]" />
+              <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#9B704E]">The solution</p>
+<p className="mt-3 leading-relaxed text-[#5D695F]">We set up and manage your follow-up system so opportunities don't slip through the cracks. From missed-call text-back and immediate lead responses to estimate follow-ups, old lead reactivation, and past-customer reactivation, we help you stay connected with potential customers. Setup, monitoring, maintenance, and monthly reporting are all handled for you.</p>              <div className="mt-8"><BookingButton label="Explore the Managed Program" /></div>
+            </article>
+            <article className="rounded-[28px] bg-[#DFE5D9] p-8 md:p-11">
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#8E664B]">02 / Coaching & operational advisory</p>
+              <h3 className="mt-5 text-3xl font-semibold tracking-tight md:text-4xl">You don't need more advice. You need progress.</h3>
+              <p className="mt-6 leading-relaxed text-[#4F6154]">When you're the person everyone turns to, it's hard to find the time and perspective to work on the business instead of constantly working in it.</p>
+              <div className="my-7 h-px bg-[#C6D0C1]" />
+              <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#8E664B]">The solution</p>
+              <p className="mt-3 leading-relaxed text-[#4F6154]">Work directly with an experienced, hands-on operator to untangle challenges, make decisions, strengthen day-to-day operations, and turn ideas into action. From a focused coaching call to more involved operational support, the approach fits the challenge.</p>
+              <div className="mt-8"><BookingButton label="Discuss Coaching & Advisory" /></div>
+            </article>
+          </div>
         </div>
       </section>
 
-      {/* Booking Section */}
-      <section className="text-center py-20 pb-6" id="setup">
-        <h2 className="text-[2.2rem] font-extrabold">Claim Your Demonstration Slot</h2>
-        <p className="text-[#475569] mt-4 mb-10">See our custom trade workflows live in action and claim your setup slot.</p>
-        <div className="bg-[#f8fafc] border-2 border-dashed border-[#cbd5e1] rounded-xl max-w-[600px] mx-auto p-10 mb-8">
-          <p className="text-[#475569] font-semibold mb-6">Ready to see it in action?</p>
-          <Link
-            href="/optin"
-            className="inline-block bg-[#f97316] text-white px-10 py-4 text-[1.15rem] font-bold rounded-lg shadow-[0_4px_14px_rgba(249,115,22,0.3)] transition-all duration-200 hover:bg-[#ea580c] hover:-translate-y-0.5"
-          >
-            Schedule a 15-Minute System Demo
-          </Link>
-        </div>
-        <p className="text-xs text-[#94a3b8] max-w-[600px] mx-auto leading-relaxed px-4">
-          By scheduling a demo, you consent to receive transactional and promotional text messages from 1451358 B.C. Ltd. at the phone number provided. Message &amp; data rates may apply. Message frequency varies. Reply STOP to opt out. View our{" "}
-          <Link href="/privacy-policy" className="text-[#2563eb] hover:underline">Privacy Policy</Link>{" "}and{" "}
-          <Link href="/terms" className="text-[#2563eb] hover:underline">Terms and Conditions</Link>.
-        </p>
+      <section id="about" className="mx-auto grid max-w-6xl gap-10 px-6 py-20 md:grid-cols-[1fr_1.2fr] md:py-28">
+        <div><p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#9B704E]">Our approach</p><h2 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">No fluff. No complicated playbook. Just what moves the business forward.</h2></div>
+        <div className="space-y-5 text-lg leading-relaxed text-[#59675C]"><p>We believe good business support should feel straightforward, personal, and useful. We listen, identify what's getting in the way, and focus on practical next steps.</p><p>Whether we're managing your follow-up behind the scenes or helping you tackle a bigger operational challenge, our work is grounded in real-world execution—not theory for theory's sake.</p><p className="font-semibold text-[#293D32]">A capable partner in your corner. A little less on your shoulders.</p></div>
       </section>
-    </div>
+
+      <section className="bg-[#345945] px-6 py-20 text-center text-white md:py-24">
+        <div className="mx-auto max-w-3xl"><p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#E6C5A8]">Let's get started</p><h2 className="mt-5 text-4xl font-semibold tracking-tight md:text-5xl">Tell us what's keeping you up at night.</h2><p className="mx-auto mb-8 mt-6 max-w-2xl text-lg leading-relaxed text-[#E1E9E0]">We'll listen, ask a few useful questions, and see whether Operation Workflow is the right fit. No pressure, no long presentation.</p><BookingButton light label="Book Your Free 10-Minute Call" /></div>
+      </section>
+      <footer className="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-9 text-sm text-[#69756B] md:flex-row md:items-center md:justify-between"><p>© {new Date().getFullYear()} Operation Workflow · 1451358 B.C. Ltd.</p><div className="flex gap-6"><Link className="hover:underline" href="/privacy-policy">Privacy Policy</Link><Link className="hover:underline" href="/terms">Terms</Link><Link className="hover:underline" href="/optin">Contact</Link></div></footer>
+    </main>
   );
 }

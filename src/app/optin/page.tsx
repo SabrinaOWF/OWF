@@ -2,7 +2,7 @@ import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
   title: "Contact - Operation Workflow",
-  description: "Schedule your 15-minute system demo with Operation Workflow. Get in touch with our team.",
+  description: "Contact Operation Workflow to learn about our managed follow-up services and business advisory. Book a free 10-minute conversation.",
 };
 
 export default function OptinPage() {
@@ -22,29 +22,23 @@ export default function OptinPage() {
 
       <ContactForm />
 
-      {/* Contact Card */}
-      <div className="mt-16 bg-[#f8fafc] border border-[#e2e8f0] rounded-xl p-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="flex flex-col gap-1">
-          <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Legal Name</span>
-          <span className="text-sm text-[#475569]">1451358 B.C. Ltd.</span>
-        </div>
-        <div className="flex flex-col gap-1">
-          <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Operating As</span>
-          <span className="text-sm text-[#475569]">OWF - Operation Workflow</span>
-        </div>
-        <div className="flex flex-col gap-1">
-          <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Address</span>
-          <span className="text-sm text-[#475569]">33791 Apps Court, Mission, BC, V2V6Z8, Canada</span>
-        </div>
-        <div className="flex flex-col gap-1">
-          <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Contact</span>
-          <span className="text-sm text-[#475569]">
+      
+      {/* Business Contact */}
+      <div className="mt-16 rounded-xl border border-[#e2e8f0] bg-[#f8fafc] p-8 text-center">
+        <h2 className="text-xl font-semibold text-[#293D32]">
+          Contact Operation Workflow
+        </h2>
+        <p className="mt-3 text-[#475569]">
+          Prefer email? Reach us at{" "}
+          <a
+            href="mailto:sabrina@operationworkflow.com"
+            className="font-semibold text-[#345945] underline"
+          >
             sabrina@operationworkflow.com
-            <br />
-            +1 604-418-4798
-          </span>
-        </div>
+          </a>
+        </p>
       </div>
+
     </div>
   );
 }

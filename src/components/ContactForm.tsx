@@ -164,7 +164,7 @@ export default function ContactForm() {
         className="btn-submit"
         disabled={status === 'loading'}
       >
-        {status === 'loading' ? 'Submitting...' : 'Schedule a 15-Minute System Demo'}
+        {status === 'loading' ? 'Submitting...' : 'Send My Inquiry'}
       </button>
 
       {status === 'success' && (
