@@ -70,18 +70,12 @@ function Footer() {
     <footer className="mt-24 bg-[#0f172a] text-white">
       <div className="max-w-[1100px] mx-auto px-5 py-14 text-center">
         <div className="flex flex-col items-center mb-8">
-          <Image
-            src="/logo.svg"
-            alt="Operation Workflow"
-            width={48}
-            height={48}
-            className="rounded-lg mb-4"
-          />
+          
           <div className="text-lg font-black tracking-[-0.04em]">
             OPERATION <span className="text-[#2563eb]">WORKFLOW</span>
           </div>
           <div className="text-sm text-gray-400 mt-2">
-           Managed Follow-Up | Revenue Recovery | Operational Support
+           Revenue Recovery | Managed Follow-Up
           </div>
         </div>
 
