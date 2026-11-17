@@ -7,28 +7,28 @@ export default function PrivacyPage() {
   return (
     <div className="max-w-[760px] mx-auto px-5 py-16">
       <div className="mb-12">
-        <span className="inline-block text-xs font-semibold tracking-[2.5px] uppercase text-[#2563eb] mb-4">Legal</span>
-        <h1 className="text-4xl md:text-[2.8rem] font-extrabold text-[#0f172a] leading-tight">Privacy Policy</h1>
+        <span className="inline-block text-xs font-semibold tracking-[2.5px] uppercase text-[#9B704E] mb-4">Legal</span>
+        <h1 className="text-4xl md:text-[2.8rem] font-extrabold text-[#293D32] leading-tight">Privacy Policy</h1>
         <p className="mt-4 text-[#475569]">Last Updated: May 2026</p>
       </div>
 
       <Section label="Business Information">
         <h2>About Operation Workflow</h2>
-        <div className="bg-[#f8fafc] border border-[#e2e8f0] rounded-xl p-7 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+        <div className="bg-[#F8F3EB] border border-[#E3DDD2] rounded-xl p-7 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="flex flex-col gap-1">
-            <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Legal Name</span>
+            <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#9B704E]">Legal Name</span>
             <span className="text-sm text-[#475569]">1451358 B.C. Ltd.</span>
           </div>
           <div className="flex flex-col gap-1">
-            <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Operating As</span>
+            <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#9B704E]">Operating As</span>
             <span className="text-sm text-[#475569]">OWF - Operation Workflow</span>
           </div>
           <div className="flex flex-col gap-1">
-            <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Address</span>
+            <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#9B704E]">Address</span>
             <span className="text-sm text-[#475569]">Mission, British Columbia, Canada</span>
           </div>
           <div className="flex flex-col gap-1">
-            <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#2563eb]">Contact</span>
+            <span className="text-[10px] font-semibold tracking-[2px] uppercase text-[#9B704E]">Contact</span>
             <span className="text-sm text-[#475569]">
               sabrina@operationworkflow.com
               <br />
