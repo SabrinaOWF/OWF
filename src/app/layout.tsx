@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   title: "Operation Workflow | Stop Losing Leads",
 description: "Operation Workflow helps service businesses recover missed opportunities through fully managed lead follow-up, missed-call text-back, estimate follow-ups, and customer reactivation. We handle setup, monitoring, and maintenance so you can focus on running your business.",  
   icons: {
-    icon: "/logo.svg",
-    apple: "/logo.svg",
+    icon: "/favicon.ico",
+apple: "/favicon.ico",
   },
 };
 
